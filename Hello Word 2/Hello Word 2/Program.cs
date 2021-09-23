@@ -7,8 +7,8 @@ namespace Hello_Word_2
     {
         static int age = 16;
         static float age2 = 16.2f;
-        static string word = "My age is ";
-        static string word2 = "My exact age is ";
+        static string word = "My age is ", word2 = "My exact age is ", word3 = "My grade is ";
+        static char grade = 'A';
 
         static void Main(string[] args)
         {
@@ -41,6 +41,8 @@ namespace Hello_Word_2
             Console.WriteLine(word + age);
             Console.WriteLine();
             Console.WriteLine(word2 + age2);
+            Console.WriteLine();
+            Console.WriteLine(word3 + grade);
 
             Console.ReadKey();
         }
